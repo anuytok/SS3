@@ -1,0 +1,62 @@
+{
+    "image_path": {
+        "preprocessing": {
+            "height": 28,
+            "in_memory": true,
+            "missing_value_strategy": "backfill",
+            "num_channels": 1,
+            "num_processes": 1,
+            "resize_method": "interpolate",
+            "scaling": "pixel_normalization",
+            "width": 28
+        }
+    },
+    "label": {
+        "idx2str": [
+            "<UNK>",
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "preprocessing": {
+            "fill_value": "<UNK>",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 10000
+        },
+        "str2freq": {
+            "0": 6000,
+            "1": 6000,
+            "2": 6000,
+            "3": 6000,
+            "4": 6000,
+            "5": 6000,
+            "6": 6000,
+            "7": 6000,
+            "8": 6000,
+            "9": 6000,
+            "<UNK>": 0
+        },
+        "str2idx": {
+            "0": 1,
+            "1": 2,
+            "2": 3,
+            "3": 4,
+            "4": 5,
+            "5": 6,
+            "6": 7,
+            "7": 8,
+            "8": 9,
+            "9": 10,
+            "<UNK>": 0
+        },
+        "vocab_size": 11
+    }
+}
